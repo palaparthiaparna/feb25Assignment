@@ -1,0 +1,13 @@
+l=[]
+n=int(input("Enter number of elements : "))
+for i in range(0,n):
+    x= int(input())
+    l.append(x)
+ 
+for i in l:
+	if i >=0:
+	    print('positive numbers are: ',i)
+print("\n")
+for i in l:
+        if i<0:
+            print('negative numbers are: ',i)    
